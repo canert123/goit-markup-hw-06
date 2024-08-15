@@ -1,0 +1,153 @@
+@media (max-width:320px){
+    .container{
+        width: 320px;
+    }
+
+    .modal-card-container{
+        width: 288px;
+        height: 384px;
+    }
+
+    /* -------- Nav alanı ------- */
+    .nav-list{
+        display: none;
+    }
+    .header-address{
+        display: none;
+    }
+
+    /* -------- Hero content alanı --------- */
+    .hero-content{
+        padding: 72px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mobile.jpg);
+    }
+
+    .hero-title{
+        padding: 0 52px;
+        font-size: 36px;
+        line-height: 111%;
+    }
+
+    /* -------- Hamburger Menü Alanı ------- */
+    .icon-hamburger{
+        fill: var(--slate);
+    }
+    
+    
+    .hamburger-svg{
+        display: flex;
+        margin: 16px 0;
+    }
+    
+    .hamburger-menu{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 72px 24px 40px 16px;
+        background-color: #fff;
+    }
+
+    .modal-card-exit{
+        background-color: #fff;
+    }
+
+    .hamburger-menu-link{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+    }
+
+    .hamburger-menu-link:hover, .hamburger-menu-link:focus, .hamburger-address-link:hover, .hamburger-address-link:focus{
+        color: var(--ocean);
+    }
+
+    .hamburger-menu-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .hamburger-menu-item:last-child{
+        margin-bottom: 108px;
+    }
+
+    .hamburger-address-link{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+    }
+    .hamburger-address-item:not(:last-child){
+        margin-bottom: 24px
+    }
+    .hamburger-address-item:last-child{
+        margin-bottom: 48px;
+    }
+
+    /* ---------- Advantage alanı ----------- */
+    .advantage-list{
+        gap: 72px;
+    }
+
+    .advantage-item{
+        width: 100%;
+    }
+
+    .advantage-item-title{
+        text-align: center;
+    }
+
+    .team-list{
+        padding: 0 13px;
+    }
+    .team-member{
+        width: 100%;
+    }
+
+    /* --------- Portfolio alanı ------------ */
+    .portfolio-card{
+        width: 100%;
+    }
+
+    /* ---------- Footer Alanı ----------- */
+    footer{
+        padding: 96px 0;
+    }
+
+    .footer-wrapper{
+        margin: 0 0 72px 0;
+    }
+
+    .footer-logo{
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-social-text{
+        text-align: center;
+    }
+
+    .footer-flex{
+        justify-content: center;
+    }
+
+    .footer-form-text{
+        margin-top: 72px;
+        text-align: center;
+    }
+    .footer-user-info{
+        flex-direction: column;
+    }
+
+    .footer-input{
+        width: 100%;
+    }
+
+    .footer-button{
+        align-self: center;
+    }
+}

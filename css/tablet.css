@@ -1,0 +1,84 @@
+@media (max-width: 1158px) {
+  /* ------- Genel CSS ------- */
+  .container {
+    width: 768px;
+  }
+
+  section {
+    padding: 96px 0;
+  }
+  /* ------- Header Alanı için ------- */
+  .logo-content {
+    margin: initial;
+    margin-right: 125px;
+  }
+
+  .address-item-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+  }
+
+  .address-list {
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  /* -------- Hero Content alanı için -------- */
+  .hero-content {
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tablet.jpg);
+  }
+
+  /* -------- Advantage kısmı ---------- */
+  .advantage-svg {
+    display: none;
+  }
+
+  .advantage-item {
+    width: calc((100% - 36px) / 2);
+  }
+
+  .advantage-item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+  }
+
+  .advantage-item-text {
+    font-weight: 500;
+  }
+
+  /* -------- Team Member alanı -------- */
+  .team-list {
+    padding: 0 108px;
+    row-gap: 64px;
+  }
+
+  .team-member {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* -------- Portfolio Alanı ---------- */
+  .portfolio-list {
+    row-gap: 40px;
+  }
+
+  .portfolio-card {
+    width: calc((100% - 24px) / 2);
+  }
+  /* -------- Footer alanı için -------- */
+  footer {
+    padding: 100px 108px;
+    display: flow;
+  }
+  .footer-wrapper {
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+}
